@@ -34,10 +34,10 @@ export default function App() {
          </div>
          <div className={hero.herocta}>
           <p className="text-2xl font-bold">Powered By:</p>
-         <div className="inline-flex gap-2 "><Image src='/iconGoogle.png'width={50} height={50} /></div>
-         <div className="inline-flex gap-2 "><Image src='/iconPrisma2.png'width={50} height={50} /></div>
-         <div className="inline-flex gap-2 "><Image src='/iconMongodb.png'width={50} height={50} /></div>
-         <div className="inline-flex gap-2 "><Image src='/clerk.png'width={100} height={100} /></div>
+         <div className="inline-flex gap-2 "><Image src='/iconGoogle.png'width={50} height={50} alt="google" /></div>
+         <div className="inline-flex gap-2 "><Image src='/iconPrisma2.png'width={50} height={50}alt="mongodb"/></div>
+         <div className="inline-flex gap-2 "><Image src='/iconMongodb.png'width={50} height={50} alt="clerk"/></div>
+         <div className="inline-flex gap-2 "><Image src='/clerk.png'width={100} height={100}alt='eo' /></div>
           
         
          </div>
